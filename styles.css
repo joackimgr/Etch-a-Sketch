@@ -8,26 +8,30 @@ h1 {
     text-align: center;
 }
 
-p {
-    text-align: center;
+#btnOfNums {
+    display: block;
+    margin: 0 auto;
+    padding: 1rem 1.6rem;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+    cursor: pointer;
 }
 
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex: 1;
     margin: 100px auto;
+    width: 600px;
+    height: 600px;
 }
 
 .column {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    height: 100%;
 }
 
 .row {
-    width: 20px;
-    height: 20px;
+    width: 100%;
 }
