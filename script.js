@@ -21,10 +21,24 @@ function hover() {
   let rows = document.querySelectorAll(".row");
   rows.forEach((row) => {
     row.addEventListener(
-      "mouseover",
-      () => (row.style.backgroundColor = "black")
+      "mouseover", function () {
+        if (document.getElementById('black').checked) {
+          row.style.backgroundColor = 'black';
+        } else if (document.getElementById('rainbow').checked) {
+          row.style.backgroundColor = getRandomColor();
+        }
+      }
     );
   });
+}
+
+function getRandomColor() {
+  var letters = '0123456789ABCDEF';
+  var color = '#';
+  for (var i = 0; i < 6; i++) {
+    color += letters[Math.floor(Math.random() * 16)];
+  }
+  return color;
 }
 
 function boxNums() {
