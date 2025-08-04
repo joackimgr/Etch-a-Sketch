@@ -8,7 +8,7 @@ h1 {
     text-align: center;
 }
 
-#btnOfNums {
+#btnOfNums, #reset{
     display: block;
     margin: 0 auto;
     padding: 1rem 1.6rem;
@@ -24,6 +24,8 @@ h1 {
     margin: 100px auto;
     width: 600px;
     height: 600px;
+    border: 1px solid black;
+    box-sizing: border-box;
 }
 
 .column {
@@ -34,4 +36,10 @@ h1 {
 
 .row {
     width: 100%;
+    box-sizing: border-box;
+}
+
+.colorOptions, h3 {
+    text-align: center;
+    margin: 2rem auto;
 }
