@@ -50,6 +50,13 @@ function boxNums() {
   });
 }
 
+function resetGrid() {
+  let btn = document.getElementById('reset');
+  let container = document.querySelector(".container");
+  btn.addEventListener("click", () => {container.innerHTML = ''})
+}
+
 makeGrid(16);
 hover();
 boxNums();
+resetGrid();
