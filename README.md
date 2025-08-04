@@ -12,19 +12,31 @@ A simple interactive drawing game inspired by the classic Etch-a-Sketch toy, bui
 ## 🚀 How to Run
 
 1. Clone the repository:
+   
    ```bash
    git clone https://github.com/your-username/etch-a-sketch.git
-   
-2. Open index.html in your browser.
-   etch-a-sketch/
+   ```
+3. Open `index.html` in your browser.
+
+## 📁 Project Structure
+
+```
+etch-a-sketch/
 │
 ├── index.html       # Main HTML file
 ├── styles.css       # CSS styling
 └── script.js        # JavaScript logic
+```
 
-🛠 Technologies Used
-HTML5
+## 🛠 Technologies Used
 
-CSS3
+- HTML5
+- CSS3
+- JavaScript (Vanilla)
 
-JavaScript (Vanilla)
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
