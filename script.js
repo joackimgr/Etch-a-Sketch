@@ -22,8 +22,11 @@ function hover() {
   rows.forEach((row) => {
     row.addEventListener(
       "mouseover", function () {
-        if (document.getElementById('black').checked) {
+          let currentOpacity = parseFloat(row.style.opacity) || 0;        if (document.getElementById('black').checked) {
           row.style.backgroundColor = 'black';
+          if (currentOpacity < 1) {
+            row.style.opacity = (currentOpacity + 0.1).toFixed(1);
+          }
         } else if (document.getElementById('rainbow').checked) {
           row.style.backgroundColor = getRandomColor();
         }
