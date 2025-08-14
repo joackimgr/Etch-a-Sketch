@@ -16,7 +16,7 @@ A simple interactive drawing game inspired by the classic Etch-a-Sketch toy, bui
    ```bash
    git clone https://github.com/your-username/etch-a-sketch.git
    ```
-3. Open `index.html` in your browser.
+2. Open `index.html` in your browser.
 
 ## 📁 Project Structure
 
